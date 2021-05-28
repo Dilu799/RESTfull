@@ -1,0 +1,30 @@
+GET http://localhost:3000/restRoute
+
+###
+POST http://localhost:3000/restRoute
+Content-Type: application/json
+
+{
+   "name":"Mohammed Dhilshad",
+    "emailId":"dhilshad799@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/restRoute/60afae61eea9300c2097dcb1
+
+
+### 
+
+DELETE http://localhost:3000/restRoute/60afb1e245594b1da0672972
+
+###
+
+PATCH  http://localhost:3000/restRoute/60afa9ac1e5f7a2bb4dd30b8
+Content-Type: application/json
+
+
+{
+    "name" :"Dilu Dhilshad",
+    "emailId" : "dhilshad9605@gmail.com"
+}
